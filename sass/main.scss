@@ -1,6 +1,18 @@
-// Put any @imports here
-// See Readme for a list of supported ones
+@import "foundation";
 
 body {
-  background: #e2ebf3;
+  background: #E44753;
+  
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-image: url(https://scontent-atl3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/11214110_10205425523454018_9091176293556399886_n.jpg?oh=b2beddd64905f3da370eb7763e08d96d&oe=56C21490);
+
+  button .like{
+    margin: auto;
+  }
+  
 }

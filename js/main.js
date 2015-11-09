@@ -1,5 +1,10 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+import angular from 'angular';
 
-console.log('Hello, World');
+//Import Controllers
+import MindController from './controllers/myController';
+
+//Creating a Module
+angular.module('app', [])
+
+//Some Controllers
+.controller('MindController', MindController);
