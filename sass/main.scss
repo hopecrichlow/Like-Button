@@ -1,4 +1,9 @@
 @import "foundation";
+@import "font-awesome";
+
+$gradient: linear-gradient(45deg, #E44753, skyblue);
+$gradient2: linear-gradient(45deg, #E44753, #72ABC0);
+
 
 body {
   background: #E44753;
@@ -6,13 +11,30 @@ body {
 }
 
 .container {
-  width: 500px;
+  background-image: url(../photos/kedaAndDad.jpg); 
+  width: 420px;
   height: 500px;
   margin: auto;
-  background-image: url(https://scontent-atl3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/11214110_10205425523454018_9091176293556399886_n.jpg?oh=b2beddd64905f3da370eb7763e08d96d&oe=56C21490);
-
-  button .like{
-    margin: auto;
-  }
+  margin-top: 200px;
   
 }
+
+.likes {
+  margin-top: 420px;
+  margin-left: 10px;
+  font-family: cursive;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  border: 4px solid transparent;
+  border-image: $gradient;
+  border-image-slice: 1;
+  background: $gradient;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  transition: all 0.2s ease;
+  &:hover {
+    border-image: $gradient;
+    background: $gradient2;
+  }
+}
+
