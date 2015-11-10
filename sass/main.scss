@@ -1,5 +1,4 @@
 @import "foundation";
-@import "font-awesome";
 
 $gradient: linear-gradient(45deg, #E44753, skyblue);
 $gradient2: linear-gradient(45deg, #E44753, #72ABC0);
@@ -7,7 +6,6 @@ $gradient2: linear-gradient(45deg, #E44753, #72ABC0);
 
 body {
   background: #E44753;
-  
 }
 
 .container {
@@ -16,7 +14,6 @@ body {
   height: 500px;
   margin: auto;
   margin-top: 200px;
-  
 }
 
 .likes {
